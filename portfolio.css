@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Saira Stencil", sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(7, 7, 25);
+    color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*Aqui é o cabeçalho*/
+.cabecalho {
+    margin: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(1, 1, 78, 0.463);
+    padding: 10px;
+    margin: 0 0 0 0;
+}
+
+h3 {
+    color: rgb(252, 106, 9);
+    font-weight: 900;
+    margin-left: 5px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-top: 3px;
+    margin-right: 15px;
+}
+
+.inicio {
+    color: rgb(252, 106, 9);
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    border-bottom: rgb(252, 106, 9) solid 2px;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 5px 10px 5px 25px;
+    border: 2px solid rgb(252, 106, 9);
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+}
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 5%;
+}
+
+/*Aqui estão os textos*/
+.texto {
+    max-width: 600px;
+}
+
+.greeting {
+    background-color: rgba(252, 106, 9, 0.414);
+    width: 120px;
+    padding: 5px 10px;
+    color: rgb(252, 106, 9);
+    border-radius: 10px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: "Saira Stencil", sans-serif;
+    font-size: 82px;
+    line-height: 80px;
+}
+
+.front {
+    margin-top: 10px;
+    text-indent: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+strong {
+    color: rgb(252, 106, 9);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.paragrafo {
+    color: rgb(218, 218, 232);
+    font-size: 1.1em;
+    text-align: justify;
+    width: 100%;
+}
+
+.watsapp {
+    position: fixed;
+    bottom: 80px;
+    right: 90px;
+}
+
+.imagen {
+    border-radius: 50px 20px;
+    border: 3px solid rgb(252, 106, 9);
+    width: 370px;
+    height: 400px;
+}
+
+.social-media {
+    display: flex;
+    gap: 20px;
+}
+
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+    flex: 0 0 40px;
+    background-color: linear-gradient(145deg, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.20));
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(133, 128, 128, 0.03) inset 0 1px 0 rgba(255, 255, 255, 0.19);
+    width: 40px;
+    height: 40px;
+    border-radius: 10px 10px;
+    align-content: center;
+    text-align: center;
+}
+
+
+/*Aqui tem a segunda parte do site - SOBRE MIM*/
+.principal-second {
+    display: flex;
+    gap: 40px;
+    margin: 2em 2em 2em 6em;
+}
+
+.container-sobre {
+    width: 50%;
+    margin-top: 3.5em;
+
+}
+
+.principal {
+    display: flex;
+    gap: .5em;
+    position: relative;
+}
+
+.paragraph-sobre {
+    margin: 1em 1em 1em 0;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    color: rgba(255, 255, 255, 0.819);
+}
+
+.sobre-first {
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+}
+
+.icone-sobre {
+    width: 50px;
+}
+
+.dados-sobre {
+    display: flex;
+    gap: 10px;
+
+}
+
+.pontos-sobre {
+    flex: 0 0 200px;
+    padding: 20px;
+    width: 20%;
+    height: 12em;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    background-color: rgba(35, 34, 34, 0.138);
+    backdrop-filter: blur(rgba(255, 255, 255, 0.06));
+
+    .icone-ponto1,
+    .icone-ponto2,
+    .icone-ponto3 {
+        display: block;
+        margin-left: 3.3em;
+    }
+
+    .paragraph-ponto1,
+    .paragraph-ponto2,
+    .paragraph-ponto3 {
+        color: rgba(255, 255, 255, 0.819);
+        font-size: 1.1em;
+        text-align: center;
+        line-height: 2em;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+}
+
+/* PARTE DAS PERCENTAGENS*/
+
+.skills {
+    width: 40%;
+    height: 28em;
+    margin-top: 2em;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    background-color: rgba(35, 34, 34, 0.138);
+    backdrop-filter: blur(rgba(255, 255, 255, 0.06));
+
+    .subtitle {
+        margin: 1em 0 1em 1em;
+    }
+
+    .html-skills {
+        display: flex;
+        position: relative;
+        margin-left: 1em;
+
+        .info {
+            display: flex;
+            gap: 18rem;
+            margin-left: 12px;
+        }
+
+        .bar1 {
+            position: absolute;
+            left: 4em;
+            bottom: 1em;
+            border: none;
+            width: 80%;
+            height: 1em;
+            border-radius: 10px;
+            background-color: rgba(33, 35, 35, 0.782);
+
+            .progress1 {
+                background-color: rgb(252, 106, 9);
+                width: 95%;
+                height: 100%;
+                border-radius: 10px;
+            }
+
+        }
+    }
+
+    .css-skills {
+        display: flex;
+        position: relative;
+        margin-left: 1em;
+
+        .info {
+            width: 78%;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 12px;
+        }
+
+        .bar2 {
+            position: absolute;
+            left: 4em;
+            bottom: 1em;
+            width: 80%;
+            height: 1em;
+            border-radius: 10px;
+            background-color: rgba(33, 35, 35, 0.782);
+        }
+
+        .progress2 {
+            width: 90%;
+            height: 100%;
+            border-radius: 10px;
+            background-color: rgb(37, 37, 251);
+        }
+    }
+
+    .javascrip-skills {
+        display: flex;
+        position: relative;
+        margin-left: 1em;
+
+        .info {
+            display: flex;
+            gap: 16rem;
+            margin-left: 12px;
+        }
+
+        .bar3 {
+            position: absolute;
+            left: 4em;
+            bottom: 1em;
+            width: 80%;
+            height: 1em;
+            border-radius: 10px;
+            background-color: rgba(33, 35, 35, 0.782);
+        }
+
+        .progress3 {
+            width: 75%;
+            height: 100%;
+            border-radius: 10px;
+            background-color: #dbfb25;
+        }
+    }
+
+    .github-skills {
+        display: flex;
+        position: relative;
+        margin-left: 1em;
+
+        .info {
+            display: flex;
+            gap: 15rem;
+            margin-left: 12px;
+        }
+
+        .bar4 {
+            position: absolute;
+            left: 4em;
+            bottom: 1em;
+            width: 80%;
+            height: 1em;
+            border-radius: 10px;
+            background-color: rgba(33, 35, 35, 0.782);
+        }
+
+        .progress4 {
+            width: 80%;
+            height: 100%;
+            border-radius: 10px;
+            background-color: #b746ae;
+        }
+    }
+
+    .figma-skills {
+        display: flex;
+        position: relative;
+        margin-left: 1em;
+
+        .info {
+            display: flex;
+            gap: 18rem;
+            margin-left: 12px;
+        }
+
+        .bar5 {
+            position: absolute;
+            left: 4em;
+            bottom: 1em;
+            width: 80%;
+            height: 1em;
+            border-radius: 10px;
+            background-color: rgba(33, 35, 35, 0.782);
+        }
+
+        .progress5 {
+            width: 70%;
+            height: 100%;
+            border-radius: 10px;
+            background-color: #0bd663;
+        }
+    }
+}
+
+
+@media screen and(max-width:600px) {
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+
+/*@keyframes spin {
+    from {
+        translate: 0;
+    }
+
+    to {
+        translate: 100%;
+    }
+}*/
